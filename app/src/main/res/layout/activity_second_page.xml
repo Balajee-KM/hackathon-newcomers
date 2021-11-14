@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondPage"
+    android:background="@drawable/blacky">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEPARTMENTS"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="40dp"
+        android:id="@+id/dep"
+        android:textSize="35dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub1"
+        android:layout_below="@id/dep"
+        android:text="MX"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub2"
+        android:layout_below="@id/sub1"
+        android:text="RAE"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub3"
+        android:layout_below="@id/sub2"
+        android:text="CSE"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

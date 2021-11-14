@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".maths">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="mathematics, the science of structure, order, and relation that has evolved from elemental practices of counting, measuring, and describing the shapes of objects. It deals with logical reasoning and quantitative calculation, and its development has involved an increasing degree of idealization and abstraction of its subject matter. Since the 17th century, mathematics has been an indispensable adjunct to the physical sciences and technology, and in more recent times it has assumed a similar role in the quantitative aspects of the life sciences."
+        android:textStyle="italic"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:padding="60dp"/>
+
+</RelativeLayout>

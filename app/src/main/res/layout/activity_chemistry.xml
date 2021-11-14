@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".chemistry">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="chemistry, the science that deals with the properties, composition, and structure of substances (defined as elements and compounds), the transformations they undergo, and the energy that is released or absorbed during these processes. Every substance, whether naturally occurring or artificially produced, consists of one or more of the hundred-odd species of atoms that have been identified as elements. Although these atoms, in turn, are composed of more elementary particles, they are the basic building blocks of chemical substances; there is no quantity of oxygen, mercury, or gold, for example, smaller than an atom of that substance. Chemistry, therefore, is concerned not with the subatomic domain but with the properties of atoms and the laws governing their combinations and how the knowledge of these properties can be used to achieve specific purposes."
+        android:textStyle="italic"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:padding="40dp"/>
+
+</RelativeLayout>
